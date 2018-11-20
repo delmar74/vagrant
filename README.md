@@ -1,5 +1,13 @@
 # Vagrant
 
+Links:
+* https://app.vagrantup.com/
+
+Images:
+* centos/7
+* ubuntu/trusty64
+* debian/jessie64
+
 ## Running VM
 Example:
 
