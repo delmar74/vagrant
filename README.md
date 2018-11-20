@@ -1,8 +1,9 @@
-Vagrant
+# Vagrant
 
+## Running VM
 Example:
 ```bash
-$ vagrant box add ubuntu/trusty64
+$ vagrant box add **ubuntu/trusty64**
 ==> vagrant: A new version of Vagrant is available: 2.2.1!
 ==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
 
@@ -13,7 +14,7 @@ $ vagrant box add ubuntu/trusty64
     box: Download redirected to host: cloud-images.ubuntu.com
 ==> box: Successfully added box 'ubuntu/trusty64' (v20181103.0.0) for 'virtualbox'!
 
-$ vagrant init ubuntu/trusty64
+$ vagrant init **ubuntu/trusty64**
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
