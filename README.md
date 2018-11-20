@@ -2,8 +2,9 @@
 
 ## Running VM
 Example:
+
+**$ vagrant box add ubuntu/trusty64**
 ```bash
-$ vagrant box add **ubuntu/trusty64**
 ==> vagrant: A new version of Vagrant is available: 2.2.1!
 ==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
 
@@ -13,14 +14,17 @@ $ vagrant box add **ubuntu/trusty64**
     box: Downloading: https://vagrantcloud.com/ubuntu/boxes/trusty64/versions/20181103.0.0/providers/virtualbox.box
     box: Download redirected to host: cloud-images.ubuntu.com
 ==> box: Successfully added box 'ubuntu/trusty64' (v20181103.0.0) for 'virtualbox'!
-
-$ vagrant init **ubuntu/trusty64**
+```
+**$ vagrant init ubuntu/trusty64**
+```bash
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` foir more information on using Vagrant.
+```
 
-$ vagrant up
+**$ vagrant up**
+```bash
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Importing base box 'ubuntu/trusty64'...
 ==> default: Matching MAC address for NAT networking...
