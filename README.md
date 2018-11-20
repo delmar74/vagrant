@@ -3,7 +3,6 @@ Vagrant
 Example:
 ```bash
 $ vagrant box add ubuntu/trusty64
-```
 ==> vagrant: A new version of Vagrant is available: 2.2.1!
 ==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
 
@@ -59,4 +58,4 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: VirtualBox Version: 5.2
 ==> default: Mounting shared folders...
     default: /vagrant => /Users/oleg/Coding/github/vagrant/ubuntu
-
+```
