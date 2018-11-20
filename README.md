@@ -1,8 +1,9 @@
 Vagrant
 
 Example:
-
+```bash
 $ vagrant box add ubuntu/trusty64
+```
 ==> vagrant: A new version of Vagrant is available: 2.2.1!
 ==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
 
